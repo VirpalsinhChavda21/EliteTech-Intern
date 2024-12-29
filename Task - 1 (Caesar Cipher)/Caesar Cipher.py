@@ -11,7 +11,7 @@ def caesar_cipher_encrypt(text, shift):
 def caesar_cipher_decrypt(encrypted_text, shift):
     return caesar_cipher_encrypt(encrypted_text, -shift)
 
-# User Input
+
 print("Caesar Cipher Encryption/Decryption")
 text = input("Enter the text: ")
 shift = int(input("Enter the shift value (e.g., 3): "))
